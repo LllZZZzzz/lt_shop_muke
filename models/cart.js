@@ -82,4 +82,5 @@ Cart.countCart = function (id, callback) {
     callback(err, res[0]);
   });
 }
+// 购物车相关信息的查询
 module.exports = Cart;

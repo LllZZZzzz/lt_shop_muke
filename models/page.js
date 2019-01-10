@@ -6,4 +6,5 @@ function Page(page) {
 	this.pageSize=page.pageSize;
 	this.total=page.total;
 };
+// 页面对象，包含页面大小，数目等相关信息
 module.exports = Page;

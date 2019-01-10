@@ -121,7 +121,7 @@ Product.addProduct = function (product, callback) {
 };
 
 
-
+// 产品相关信息的查询
 Product.updateProduct = function (product, callback) {
   var selectSql = 'UPDATE product SET ';
   var param = new Array();
@@ -196,4 +196,5 @@ Product.updateProduct = function (product, callback) {
     callback(err, result);
   });
 };
+
 module.exports = Product;

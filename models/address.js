@@ -78,4 +78,5 @@ Address.queryAddress = function (userId, callback) {
     callback(err, res);
   });
 }
+// 地址的相关信息的查询
 module.exports = Address;

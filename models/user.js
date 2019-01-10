@@ -97,4 +97,5 @@ User.updatePassword= function (id,password, callback) {
 		callback(err, result);
 	});
 };
+// 用户信息查询
 module.exports = User;

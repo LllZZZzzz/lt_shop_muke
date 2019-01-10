@@ -18,4 +18,5 @@ Employee.getUserByName = function (username, callback) {
 		callback(err, data);
 	});
 };
+// 商家信息的查询
 module.exports = Employee;

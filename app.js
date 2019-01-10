@@ -32,12 +32,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+ 
 
 
 /*app.all('*',function(req,res,next){
@@ -45,12 +40,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  next();
  });*/
 
-app.use('/user', user);
-app.use('/product', product);
-app.use('/category', category);
-app.use('/cart', cart);
-app.use('/address', address);
-app.use('/employee', employee);
+
 
 app.use(function (req, res, next) {
     var err = new Error('Not Found');

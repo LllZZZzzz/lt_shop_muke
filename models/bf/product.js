@@ -1,6 +1,6 @@
 var db = require('./db.js');
 var moment = require('moment');
-
+// 产品对象
 function Product(pro) {
 	this.id = pro.id;
 	this.proName = pro.proName;
@@ -182,4 +182,5 @@ Product.updateProduct = function (product, callback) {
     callback(err, result);
   });
 };
+// 产品相关信息的查询
 module.exports = Product;

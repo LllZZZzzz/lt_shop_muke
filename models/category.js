@@ -114,4 +114,5 @@ Category.countSecondCategory = function (callback) {
         callback(err, data);
     });
 };
+// 品类的相关信息查询
 module.exports = Category;

@@ -15,6 +15,8 @@ const pool  = mysql.createPool({
  */
 // 如果用户传递了两个参数，那么第一个就是 SQL 操作字符串， 第二个就是回调函数
 // 如果是三个参数：第一个SQL字符串，第二个数组，第三个参数回调函数
+
+// 操作数据库的对象
 exports.query = function() {
     let args = arguments;
 

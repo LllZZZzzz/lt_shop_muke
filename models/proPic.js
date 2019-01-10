@@ -36,5 +36,5 @@ ProPic.delPic = function (proId, callback) {
     callback(err, result);
   });
 };
-
+// 产品图片信息查询
 module.exports = ProPic;

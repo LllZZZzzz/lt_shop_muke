@@ -65,5 +65,5 @@ Brand.updateSecondCategory = function (brand, callback) {
   });
 };
 
-
+// 商品的相关信息的查询
 module.exports = Brand;
